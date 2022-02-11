@@ -12,9 +12,9 @@ Esta sendo utilizada aqui a fórmula dos geradores congruentes lineares, que sã
 def gerarNumerosAleatoriosMCL(num_amostras):
     lista = list()
     semente = 1
-    a = 1000432423545323
-    b = 7534577343423434
-    m = 8234509343456434
+    a = 543654767657865756756757
+    b = 7534577343423434757567567
+    m = 8234509343456434709098975
 
     for i in range(num_amostras):
         semente = (a * semente + b) % m
